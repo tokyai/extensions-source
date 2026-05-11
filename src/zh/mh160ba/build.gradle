@@ -1,0 +1,8 @@
+ext {
+    extName = 'Manhua160'
+    extClass = '.Mh160ba'
+    extVersionCode = 2
+    isNsfw = false
+}
+
+apply from: "$rootDir/common.gradle"
