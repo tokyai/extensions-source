@@ -159,7 +159,7 @@ class LaiManhua :
                 setUrlWithoutDomain(element.absUrl("href"))
                 name = element.attr("title").ifBlank { element.text() }.trim()
             }
-        }.reversed()
+        }
     }
 
     override fun pageListParse(response: Response): List<Page> {

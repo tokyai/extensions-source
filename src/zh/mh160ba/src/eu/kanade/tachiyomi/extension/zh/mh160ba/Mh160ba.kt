@@ -160,7 +160,7 @@ class Mh160ba :
                     .ifBlank { element.text() }
                     .trim()
             }
-        }.reversed()
+        }
     }
 
     override fun pageListParse(response: Response): List<Page> {
